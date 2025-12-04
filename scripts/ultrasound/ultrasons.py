@@ -76,7 +76,7 @@ def save_csv(data):
         print(">>> Aucun point à enregistrer, fichier non créé.")
         return
 
-    filename = "ultra_log_{:03d}.csv".format(file_index)
+    filename = "ultra_log_{:03d}.csv".format(file_index) 
     file_index += 1
 
     try:
